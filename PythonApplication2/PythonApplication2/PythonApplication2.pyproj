@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2baf7fb6-c4ee-4abc-a878-b33017bfae33}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonApplication2.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication2</Name>
+    <RootNamespace>PythonApplication2</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\python\各种对象的定义.py" />
+    <Compile Include="..\..\..\python\数字相关的常用方法.py">
+      <Link>数字相关的常用方法.py</Link>
+    </Compile>
+    <Compile Include="..\..\..\python\集合相关的方法.py">
+      <Link>集合相关的方法.py</Link>
+    </Compile>
+    <Compile Include="..\..\..\python\字符串相关的方法.py">
+      <Link>字符串相关的方法.py</Link>
+    </Compile>
+    <Compile Include="..\..\..\python\列表和字典的相关方法.py">
+      <Link>列表和字典的相关方法.py</Link>
+    </Compile>
+    <Compile Include="..\..\..\python\元祖的相关方法.py">
+      <Link>元祖的相关方法.py</Link>
+    </Compile>
+    <Compile Include="..\..\..\python\文件的相关方法.py">
+      <Link>文件的相关方法.py</Link>
+    </Compile>
+    <Compile Include="..\..\..\python\语句的基础.py">
+      <Link>语句的基础.py</Link>
+    </Compile>
+    <Compile Include="..\..\..\python\for和while.py">
+      <Link>for和while.py</Link>
+    </Compile>
+    <Compile Include="PythonApplication2.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
