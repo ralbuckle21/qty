@@ -1,0 +1,5 @@
+#coding=gbk
+import os
+import string
+
+f=('D:\¹ú¼Ê¸è.txt')
