@@ -7,6 +7,7 @@ from time import ctime, sleep
 import sys
 import shutil
 import tempfile
+
 if  __name__ =="__main__": #main
     class Test_Me:
         def __init__(self,color):
@@ -46,6 +47,9 @@ if  __name__ =="__main__": #main
     #f.seek(11)
     #f.write('TDN')
     
+    f=open('billy.txt','w')
+    f.write('ass we can\n'+'\n')
+    f.close()
 
     print('用逐行读写的方法复制一个文件')
     fr=open('van.txt','r')
