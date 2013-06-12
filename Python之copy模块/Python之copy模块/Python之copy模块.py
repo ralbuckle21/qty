@@ -1,7 +1,7 @@
 #coding=gbk
 import copy
 a=[[1],[2],[3]]
-print '用copy进行处理'
+print '用copy进行处理，对象是容器时成员仍然指向原来的成员对象'
 b=copy.copy(a)
 print 'a=',a
 print 'b=',b
