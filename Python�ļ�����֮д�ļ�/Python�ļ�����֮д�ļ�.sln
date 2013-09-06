@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python文件处理之写文件", "Python文件处理之写文件\Python文件处理之写文件.pyproj", "{47F3A0ED-AE93-4DCE-84EE-CF4D7566BF8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47F3A0ED-AE93-4DCE-84EE-CF4D7566BF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F3A0ED-AE93-4DCE-84EE-CF4D7566BF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
